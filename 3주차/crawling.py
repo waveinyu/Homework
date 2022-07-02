@@ -25,5 +25,3 @@ for tr in trs:
     artist = tr.select_one('td.info > a.artist.ellipsis').text
     
     print(rank, title, artist)
-
-# 순위 / 제목 / 가수
